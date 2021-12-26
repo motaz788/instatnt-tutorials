@@ -1,0 +1,58 @@
+body{
+    height: 2000px;
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+        color: white;
+}
+
+#header .navbar{
+    background:  linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+}
+
+#header .navbar .navbar-brand{
+    color: white;
+}
+
+#header .navbar ul li .nav-link{
+    color: white;
+    font: weight 300px;
+    transition: all 1s;
+
+}
+
+#header .navbar ul li .nav-link:hover{
+    background: wheat;
+    color: cyan;
+    border-radius: 20px;
+}
+#profile{
+    padding: 50px 0;
+
+
+
+}
+.hl{
+    margin: auto;
+    width: 50%;
+    height: 1px;
+    background: white;
+    border-radius: 20px;
+}
+hr{
+    height: 1px;
+    background: white;
+
+}
+i{
+    font-size: 50px;
+    padding-bottom: 10px;
+    transition: all 1s;
+    
+}
+i:hover{
+    color: turquoise;
+    transform: rotate(10deg);
+}
+.card{
+    color: blue;
+    margin-top: 10px;
+}
